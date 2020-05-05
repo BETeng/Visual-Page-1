@@ -1,0 +1,38 @@
+
+:root{
+    /* ## Colors */
+
+    /* ### Primary */
+    --pink: hsl(322, 100%, 66%);
+
+    /* ### Neutral */
+    --very-pale-cyan: hsl(193, 100%, 96%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(209, 11%, 55%);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    color: var(--very-dark-cyan);
+}
+
+.bg-image{
+    /* background: url("./images/bg-hero-mobile.svg"); */
+    background-color: var(--very-pale-cyan);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container, .footer, small{
+    max-width: 1300px;
+    padding: 2em 1em;
+    margin: auto;
+}
