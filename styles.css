@@ -1,49 +1,18 @@
 
-:root{
-    /* ## Colors */
-
-    /* ### Primary */
-    --pink: hsl(322, 100%, 66%);
-
-    /* ### Neutral */
-    --very-pale-cyan: hsl(193, 100%, 96%);
-    --very-dark-cyan: hsl(192, 100%, 9%);
-    --grayish-blue: hsl(209, 11%, 55%);
-
-
-    --dull-red:#C74242;
-    --brown: #5e0e00;
-    --yellow: #e8ba00;
-    --dark-brown: #33210a;
-    --beige: #cfa365;
-    --red: #cf1717;
-    --white: #ffffff;
-    --black: #000000;
-    --dark-beige: rgb(248, 212, 165);
-
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	box-sizing: border-box;
 }
 
-body{
-    font-size: 18px;
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Open Sans', sans-serif;
-    color: var(--very-dark-cyan);
+body {
+	color: hsl(192, 100%, 9%);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.15em;
+	margin: 0;
 }
 
-.bg-image{
-    background: url("./images/slate-textured-dark-background/background_slate.jpg");
-    background-color: var(--dark-beige);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.container, .footer, small{
-    max-width: 1300px;
-    padding: 2em 1em;
-    margin: auto;
+.container {
+	padding: 0 20px;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1000px;
 }

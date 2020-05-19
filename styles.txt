@@ -1,0 +1,24 @@
+
+:root{
+    /* ## Colors */
+
+    /* ### Primary */
+    --pink: hsl(322, 100%, 66%);
+
+    /* ### Neutral */
+    --very-pale-cyan: hsl(193, 100%, 96%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(209, 11%, 55%);
+
+
+    --dull-red:#C74242;
+    --brown: #5e0e00;
+    --yellow: #e8ba00;
+    --dark-brown: #33210a;
+    --beige: #cfa365;
+    --red: #cf1717;
+    --white: #ffffff;
+    --black: #000000;
+    --dark-beige: rgb(248, 212, 165);
+
+}
