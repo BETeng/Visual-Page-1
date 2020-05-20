@@ -16,3 +16,29 @@ body {
 	max-width: 100%;
 	width: 1000px;
 }
+
+h1,
+h2 {
+	font-family: 'Poppins', sans-serif;
+}
+
+p {
+	opacity: 0.6;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	padding: 0 20px;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1000px;
+}
+
+
+.flex {
+	display: flex;
+	align-items: center;
+}
